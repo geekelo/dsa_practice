@@ -14,6 +14,8 @@
 // chck  the items in arr2 if they are present n array 1=  5, 4
 // expected to return [ 3, 5, 4]
 
+## JS
+```
 function solution(arr1, arr2){
   let result = [];
   arr1 = arr1.sort();
@@ -43,3 +45,5 @@ function solution(arr1, arr2){
 }
 
 console.log(solution([5], [5, 1]));
+
+```
